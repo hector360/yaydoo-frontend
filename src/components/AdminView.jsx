@@ -60,6 +60,9 @@ export default function AdminView() {
     if (localStorage.getItem("user_level") === "seller") {
         return <Navigate to={`/seller-view/`} />;
     }
+    if (localStorage.getItem("user_level") === "buyer") {
+        return <Navigate to={`/buyer-view/`} />;
+    }
     return (
         <>
             <div className="seller-view">
