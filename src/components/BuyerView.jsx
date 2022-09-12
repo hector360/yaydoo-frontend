@@ -10,7 +10,6 @@ export default function BuyerView() {
 
     const [inputText, setInputText] = useState("");
     let inputHandler = (e) => {
-      //convert input text to lower case
       var lowerCase = e.target.value.toLowerCase();
       setInputText(lowerCase);
     };
@@ -48,6 +47,9 @@ export default function BuyerView() {
 
     if (localStorage.getItem("user_level") === "seller") {
         return <Navigate to={`/seller-view/`} />;
+    }
+    if (localStorage.getItem("user_level") === "admin") {
+        return <Navigate to={`/admin-view/`} />;
     }
     return (
         <>

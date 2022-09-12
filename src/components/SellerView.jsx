@@ -24,6 +24,9 @@ export default function SellerView() {
     if (localStorage.getItem("user_level") === "buyer") {
         return <Navigate to={`/buyer-view/`} />;
     }
+    if (localStorage.getItem("user_level") === "admin") {
+        return <Navigate to={`/admin-view/`} />;
+    }
     if (productsData.length === 0) {
         return (
             <>

@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Login from "../components/auth/Login";
 import SignUp from "../components/auth/SignUp";
-// import BuyerView from "../components/BuyerView";
-// import SellerView from "../components/SellerView";
-// import Dashboard from "../components/Dashboard";
 
 
 export default function Auth() {
@@ -24,8 +21,6 @@ export default function Auth() {
       <Routes>
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/" expect element={<Login />} />
-        
-        
       </Routes>
     </div>
   );
