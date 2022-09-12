@@ -1,2 +1,3 @@
 export const SERVER_URL =
-  process.env.REACT_APP_SERVER_URL || "http://localhost:3001";
+"https://yaydoo-backend.herokuapp.com" || "http://localhost:3001"; 
+//   process.env.REACT_APP_SERVER_URL || "http://localhost:3001";
