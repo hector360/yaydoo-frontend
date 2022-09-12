@@ -1,0 +1,97 @@
+.create-product-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.back-button {
+    width: 400px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.back-button a {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.back-button a:hover {
+    background: #666A70;
+    color: #fff;
+}
+.create-product-view .container {
+    width: 400px;
+    padding: 30px;
+    background: #F8FAF9;
+    border: 1px solid #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.create-product-view .container .first-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #5C6377;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+.create-product-view .container .input-container {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create-product-view .container .input-container h2 {
+    width: 100%;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    color: #5C6377;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.create-product-view .container .input-container .field-input {
+    width: 100%;
+    border: 2px solid #ADAEB0;
+    box-sizing: border-box;
+    padding: 8px;
+    background: none;
+}
+.red-field-input{
+    width: 100%;
+    border: 2px solid #D37B97;
+    box-sizing: border-box;
+    padding: 8px;
+    background: none;
+}
+.error-container {
+    width: 100%;
+    height: 15px;
+    padding: 0;
+}
+.error-container .error-message{
+    padding: 5px 0;
+    margin: 0;
+    color: #D37B97;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.create-product-view .container .input-container button {
+    padding: 10px 25px;
+    background: #EDEEF0;
+    border: 2px solid #CECFD1;
+    color: #5C6377;
+}
+.create-product-view .container .input-container button:hover {
+    background: #666A70;
+    color: #fff;
+}

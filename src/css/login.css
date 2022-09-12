@@ -1,0 +1,85 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.login-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.login-view .container {
+    width: 350px;
+    padding: 20px 30px;
+    background: #F8FAF9;
+    border: 1px solid #E7E7E7;
+    margin-top: 50px;
+}
+
+.login-view .container .first-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #5C6377;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+.login-view .container .input-container {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-view .container .input-container h2 {
+    width: 100%;
+    font-size: 10px;
+    color: #5C6377;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-view .container .input-container .field-input {
+    width: 100%;
+    border: 2px solid #ADAEB0;
+    box-sizing: border-box;
+    padding: 8px;
+    background: none;
+}
+.red-field-input{
+    width: 100%;
+    border: 2px solid #D37B97;
+    box-sizing: border-box;
+    padding: 8px;
+    background: none;
+}
+.error-container {
+    width: 100%;
+    height: 15px;
+    padding: 0;
+}
+.error-container .error-message{
+    padding: 5px 0;
+    margin: 0;
+    color: #D37B97;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-view .container .input-container button {
+    padding: 10px 25px;
+    background: #EDEEF0;
+    border: 2px solid #CECFD1;
+    color: #5C6377;
+}
+.login-view .container .input-container button:hover {
+    background: #5C6377;
+    color: #fff;
+}
+.login-view .container .input-container a {
+    color: #1faced;
+    margin: 5px 0;
+}
+

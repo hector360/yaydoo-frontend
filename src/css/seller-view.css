@@ -1,0 +1,102 @@
+
+
+.seller-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.seller-view .container {
+    width: 650px;
+    padding: 30px;
+    background: #F8FAF9;
+    border: 1px solid #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.seller-view .container .image-container {
+    width: 50%;
+}
+.seller-view .container .image-container img {
+    width: 100%;
+}
+.seller-view .container .info-container {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seller-view .container .info-container h2 {
+    width: 100%;
+}
+.seller-view .container .info-container p {
+    width: 100%;
+}
+.seller-view .container .info-container a {
+    background: #DADBE0;
+    border: 2px solid #737479;
+    padding: 8px 20px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.seller-view .container .info-container a:hover {
+    background: #737479;
+    color: #fff;
+    
+}
+
+.products-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.products-view .button-container {
+    width: 650px;
+    display: flex;
+    justify-content: flex-end;
+}
+.products-view .button-container a {
+    background: #DFE0E4;
+    padding: 10px 20px;
+    border: 2px solid #6E7275;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.products-view .button-container a:hover {
+    background: #6E7275;
+    color: #fff;
+}
+.products-view .container {
+    width: 650px;
+    border: 1px solid #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

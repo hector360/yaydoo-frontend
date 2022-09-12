@@ -1,0 +1,76 @@
+
+.seller-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.seller-view .search-container {
+    width: 1000px;
+    margin-bottom: 20px;
+}
+.seller-view .container {
+    width: 1000px;
+    height: 100%;
+    padding: 30px;
+    background: #F8FAF9;
+    border: 1px solid #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.seller-view .container .product {
+    width: 200px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+.seller-view .container .product:hover {
+    background: #ddd;
+    color: #777;
+}
+
+.seller-view .container .product .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.seller-view .container .product .image-container img {
+    width: 50%;
+}
+
+.seller-view .container .product .data-container {
+    width: 100%;
+}
+
+.seller-view .container .product .data-container h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.seller-view .container .product .data-container .sku {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.seller-view .container .product .data-container .price {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+

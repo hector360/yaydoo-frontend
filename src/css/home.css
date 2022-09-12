@@ -1,0 +1,44 @@
+.home-container {
+    width: 100%;
+    height: 100%;
+}
+.header-container {
+    width: 100%;
+    /* height: 30px; */
+    background: #F8FAF9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+}
+.header-container .logo-section {
+    
+}
+.header-container .logo-section p {
+    font-size: 24px;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-container .user-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container .user-section button {
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.header-container .user-section button:hover {
+    background: #666A70;
+    color: #fff;
+}
+              
+.body-container{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
